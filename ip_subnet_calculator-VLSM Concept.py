@@ -51,6 +51,11 @@ def main():
             
             current_base_address = ipaddress.IPv4Address(int(broadcast_address) + 1)
 
+        for i, result in results:
+        print(f"\nNetwork {i + 1}:")
+        for key, value in result.items():
+            print(f"  {key}: {value}")
+
     except ValueError:
         print("Please enter valid numbers.")
     except ipaddress.AddressValueError:

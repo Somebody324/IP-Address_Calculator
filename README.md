@@ -1,4 +1,4 @@
-# IP Subnet Calculator
+# IP CIDR/VLSM Calculator
 
 This Python script calculates subnet information for multiple networks based on a user-defined base network address and the required number of hosts for each network.
 
